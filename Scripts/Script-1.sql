@@ -47,6 +47,66 @@ character set 'euckr' fields terminated by '|' ignore 1 lines
 (@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
 set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
 
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/대구광역시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/대전광역시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/부산광역시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/서울특별시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/세종특별자치시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/울산광역시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/인천광역시.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/전라남도.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/전라북도.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/제주특별자치도.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/충청남도.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
+load data local infile 'D:/workspace/workspace_mybatis/post_program_gradle/DataFiles/충청북도.txt' into table post
+character set 'euckr' fields terminated by '|' ignore 1 lines
+(@zipcode, @sido, @d, @sigungu, @d, @d, @d, @d, @doro, @d, @d, @building1, @building2, @d, @d, @d, @d, @d, @d ,@d, @d, @d, @d, @d, @d, @d)
+set zipcode = @zipcode, sido = @sido, sigungu = @sigungu, doro = @doro, building1 = @building1, building2 = @building2;
+
 
 delete from post;
 
@@ -68,4 +128,4 @@ select * from post where doro like '임곡%';
 select distinct sido from post;
 
 -- 시도와 도로명을 선택하고 검색하면 걔네만 보이게
-select zipcode, sido, sigungu, doro, building1, building2 from post where sido='강원도' and doro='임곡로';
+select zipcode, sido, sigungu, doro, building1, building2 from post where sido='강원도' and doro='임곡로' order by building1, building2;
