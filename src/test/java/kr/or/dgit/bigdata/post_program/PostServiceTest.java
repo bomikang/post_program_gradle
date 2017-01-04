@@ -2,6 +2,7 @@ package kr.or.dgit.bigdata.post_program;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Update;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
