@@ -10,9 +10,6 @@ import kr.or.dgit.bigdata.post_program.mappers.PostMapper;
 import kr.or.dgit.bigdata.post_program.util.MyBatisSqlSessionFactory;
 
 public class PostService{
-	/**
-	* Logger for this class
-	*/
 	private static final Logger logger = Logger.getLogger(PostService.class);
 	
 	private static final PostService instance = new PostService();

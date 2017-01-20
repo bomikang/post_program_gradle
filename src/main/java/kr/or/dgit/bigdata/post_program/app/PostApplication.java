@@ -28,9 +28,6 @@ public class PostApplication extends JFrame {
 	SearchPost searchPost = new SearchPost();
 	
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -44,9 +41,6 @@ public class PostApplication extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
 	public PostApplication() {
 		setTitle("우편번호");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
